@@ -1,3 +1,53 @@
+### 📄 `friendly-dev-backend/README.md`
+# Friendly Dev – Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Strapi](https://img.shields.io/badge/Strapi-4945FF?style=for-the-badge&logo=strapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+Backend API for the **Friendly Dev** platform, powered by Strapi.  
+This service manages authentication, content, and API endpoints consumed by the frontend.
+
+---
+
+## 🚀 Features
+- Strapi CMS setup with TypeScript
+- User authentication & permissions
+- Content modeling & API endpoints
+- Ready for deployment on Node environments
+
+---
+
+## 🛠️ Tech Stack
+- **Strapi** (Headless CMS & API framework)
+- **Node.js + TypeScript**
+- **Postgres**
+
+---
+
+## 📦 Installation
+```bash
+git clone https://github.com/dante-thinkitfirst/friendly-dev-backend.git
+cd friendly-dev-backend
+npm install
+
+# Run in development
+npm run develop
+
+# Build admin panel
+npm run build
+
+# Start production server
+npm run start
+
+```
+
+
+
+
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
